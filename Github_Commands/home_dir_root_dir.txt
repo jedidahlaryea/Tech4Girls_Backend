@@ -1,0 +1,1 @@
+Root directory is the main directory in the Linux hierachy and the home directory is the created personally by the user and stores users files and directories 
