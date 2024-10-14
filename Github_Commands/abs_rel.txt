@@ -1,0 +1,1 @@
+Absolute paths is moving from your home straight to a particular directory eg:cd Tech4girls_Backend/Github_Commands . Relative path specifies tje location of the parent directory to the child ,moving from one directory to the other while still in the parent directory
