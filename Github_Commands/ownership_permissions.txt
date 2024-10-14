@@ -1,0 +1,4 @@
+read gives permission to view file content  read mode is 4
+write permission allows you to multiply the content of a file or directory  write mode is 2
+execute permission allows you to run a file if it has to be executed  execute mode is 1
+Permissions are applied to files accordingly,that is owner,group and others  eg:-rxw-r--r--
