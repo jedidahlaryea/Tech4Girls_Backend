@@ -1,0 +1,1 @@
+Branching is a way of creating different work spaces, During a collaboration branching is done to create a seperate workspace for each user to work seperately on a project and later merge 
