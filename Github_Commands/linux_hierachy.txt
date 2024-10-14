@@ -1,0 +1,7 @@
+home directory  /home
+bin directory  /bin
+log directory /log
+system configuration files  /etc
+temporary files  /tmp
+file installation /var
+stores software /usr
