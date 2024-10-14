@@ -1,0 +1,4 @@
+To create a branch ,publish a branch and switch to github the following commands are used;
+git branch <name of branch>
+git push origin <name of branch>
+move to your github to verify that your branch has been pushed 
