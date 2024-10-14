@@ -1,0 +1,1 @@
+Git pull is used to pull a file from the remote machine to the local machine ,git pull is done to to keep the local machine updated with the remote machine in other to aviod conflicts .And git pull is also used when changes are made in the repository especially during a collaboration. 
