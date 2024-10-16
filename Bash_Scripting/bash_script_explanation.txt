@@ -1,0 +1,10 @@
+Bash script is series of commands saved in a file and can be executed to achieve a desired result
+touch script.sh
+type your commands in the file:
+(#!/bin/bash)
+After,you write a comment about your script
+Then you write your code
+go back to your terminal and give a command to execute it
+chmod u+x script.sh
+ls
+./script.sh  to execute
