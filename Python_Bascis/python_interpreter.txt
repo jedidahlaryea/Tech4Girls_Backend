@@ -1,0 +1,8 @@
+First you install python using the command : sudo apt install python3
+Then using this command : python --version  ,to check the version of python3 that has been installed
+
+#!/usr/bin/bash
+x=4
+y=6
+print(x+y)
+then you execute it
