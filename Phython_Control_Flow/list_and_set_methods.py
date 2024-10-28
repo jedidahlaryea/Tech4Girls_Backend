@@ -1,0 +1,16 @@
+deal = ["good", "better", "bad", "great", "amazing"]
+print(deal)
+make = ["Honda", "Benz", "Toyota", "Tesla"]
+print(make)
+deal.remove("good")
+print(deal)
+deal.append("super")
+print(deal)
+deal.pop()
+print(deal)
+deal.sort()
+print(deal)
+deal.reverse()
+print(deal)
+deal.extend(make)
+print(deal)
