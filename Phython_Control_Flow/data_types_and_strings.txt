@@ -1,0 +1,6 @@
+int - Integers are numerical data
+float - floats are numbers with decimals
+str - Is a sequence of characters and be either formated or an F string
+list - It is data in a form of a list and can be used to print a range of index
+tuple - They are similar to lists but they do not permit changes
+set - its data that does not mind order and does not print duplicates and can be used to check membership of values and are always in '{}'
