@@ -1,0 +1,25 @@
+create a list called numbers containing 1,5,3 and 8
+append the number 10 to the end of the list insert thge number 2 at index 1
+remove the number 3 from the list 
+print the final list
+
+create a list called colour containing red green blue yellow purple
+sort the list alphabetically
+reverse the sorted listprint the final list
+
+create a list called temperatures containing 25 18 32 20 28
+find the minimum temp find the maximun temp print both values
+
+C
+
+create a list called animals containing dog cat bird fish
+remove the element at index 2
+replace the element at index 1 with lizard use pop to remove and return the last element 
+print the final list
+
+create two
+combine list2 into list 1
+print the final list
+
+create a list called name containing alice bob charlie and david
+find the index of bob and print it out
