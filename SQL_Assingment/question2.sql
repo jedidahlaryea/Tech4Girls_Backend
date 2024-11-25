@@ -1,0 +1,25 @@
+CREATE DATABASE IF NOT EXISTS Tech4Girls_DB;
+SHOW DATABASES;
+USE Tech4Girls_DB;
+
+CREATE TABLE IF NOT EXISTS Users (
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+CREATE TABLE IF NOT EXISTS Posts(
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    user_id INT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES Users(id),
+    title VARCHAR(225),
+    content TEXT,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+SHOW TABLES;
+INSERT INTO Posts (user_id, title, content)
+VALUES (4, 'Swinclub', 'Having fun with the waves');
+
+SELECT * FROM Posts;

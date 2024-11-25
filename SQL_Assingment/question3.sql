@@ -1,0 +1,30 @@
+CREATE DATABASE IF NOT EXISTS Tech4Girls_DB;
+SHOW DATABASES;
+USE Tech4Girls_DB;
+
+CREATE TABLE IF NOT EXISTS Users (
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    username VARCHAR(50) NOT NULL,
+    email VARCHAR(100) UNIQUE NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE IF NOT EXISTS Courses(
+    id INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+    course_name VARCHAR(100)
+);
+
+INSERT INTO Courses (course_name)
+VALUES ('Mathematics');
+CREATE TABLE IF NOT EXISTS User_Courses(
+    user_id INT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES Users(id),
+    course_id INT NOT NULL,
+    FOREIGN KEY (course_id) REFERENCES Courses(id)
+);
+INSERT INTO User_Courses (user_id, course_id)
+VALUES (4, 3);
+SHOW TABLES;
+
+SELECT * FROM Courses;
+SELECT * FROM User_Courses;
